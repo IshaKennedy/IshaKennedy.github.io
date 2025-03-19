@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <!-- Google Fonts for Walter and Ubuntu -->
+    <link href="https://fonts.googleapis.com/css2?family=Walter+Turncoat&family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        body {
+            background-color: #ADD8E6; /* Baby Blue */
+            font-family: 'Ubuntu', sans-serif; /* Apply Ubuntu font to the body */
+        }
+
+        .header {
+            text-align: center;
+            padding: 20px;
+            background-color: #f7e9ec; 
+            border-radius: 10px;
+            margin: 20px auto;
+            width: 80%;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .header h1 {
+            font-family: 'Walter Turncoat', cursive; /* Apply Walter font to the title */
+            font-size: 2.5rem;
+            color: rgb(0, 0, 0);
+        }
+
+        .content-box {
+            background-color: #f7e9ec; 
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+            transition: all 0.3s ease-in-out;
+        }
+
+        .content-box:hover {
+            background-color: #8b96cf; 
+            transform: scale(1.05);
+        }
+
+        h2 {
+            text-align: center;
+            font-family: 'Walter Turncoat', cursive; /* Apply Walter font to subheadings */
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Isha Kennedy</h1>
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">My Portfolio</a>
+        </div>
+    </nav>
+    
+    <div class="container mt-4">
+        <!-- About Me Section -->
+        <div class="row mb-4 p-3 content-box" id="about">
+            <h2>About Me</h2>
+            <p>My name is Isha Kennedy and I'm a first-year MMPT (Music, Media, and Performance Technology) student at the University of Limerick, Ireland. I am currently 19 years old and working towards getting a job in the film industry. I chose this course because I love photography, film, and creating things. Art has always been a passion of mine, so I'm happy to pursue it. I look forward to seeing where this course takes me and my current skill level!</p>
+        </div>
+
+        <!-- Skills & Interests -->
+        <div class="row mb-4 p-3 content-box" id="skills">
+            <h2>Skills & Interests</h2>
+            <table class="table table-striped">
+                <tr><th>Skill</th><th>Proficiency</th></tr>
+                <tr><td>Animation</td><td>Currently learning</td></tr>
+                <tr><td>Photography</td><td>Good at it</td></tr>
+                <tr><td>Film</td><td>Good at it</td></tr>
+            </table>
+        </div>
+
+        <!-- More About Me -->
+        <div class="row mb-4 p-3 content-box" id="more-about">
+            <h2>More About Me</h2>
+            <p>Ever since I was young, I have always been fascinated with creating and bringing ideas to life. Drawing was one of my earliest passions, and I spent hours sketching characters, scenes, and stories from my imagination. As I grew older, I developed a deep interest in animation, realizing that it was a powerful way to make my creations move and interact. The ability to breathe life into characters through movement and expression became something I truly loved. Over time, my artistic interests expanded into different creative fields, including photography and film, allowing me to explore visual storytelling in new ways. I find great joy in capturing moments and crafting narratives that evoke emotions and meaning. Pursuing this passion has led me to study MMPT, where I am eager to refine my skills and explore the endless possibilities in digital media and animation. My dream is to one day work in the film or animation industry, creating stories that inspire others just as much as they have inspired me.</p>
+        </div>
+
+        <!-- Reflection & Future Plans -->
+        <div class="row mb-4 p-3 content-box" id="reflection">
+            <h2>Reflection & Future Plans</h2>
+            <p>Reflecting on my journey toward the film industry and character animation, I’m excited by the blend of creativity and technology it offers. I’m passionate about storytelling through animation and the ability to bring characters to life. Moving forward, I aim to deepen my skills in character animation and digital filmmaking, mastering tools and techniques to create more dynamic, lifelike animations. I also plan to learn more about the industry, collaborating with professionals and gaining insights from mentors. Ultimately, I want to contribute to the future of animation, pushing creative boundaries and crafting compelling visual stories.</p>
+        </div>
+
+        <!-- Design Process -->
+        <div class="row mb-4 p-3 content-box" id="design-process">
+            <h2>My Design Process</h2>
+            <img src="images/sketch1.jpg" class="img-fluid" alt="Boxified Design">
+        </div>
+    </div>
+    
+    <footer class="text-center p-3 bg-dark text-white">
+        <p>&copy; Isha Kennedy - 2025</p>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
